@@ -15,6 +15,12 @@ git clone git@github.com:midsbie/tree-sitter-builder.git
 cd tree-sitter-builder
 ```
 
+2. Initialize the submodule
+
+```bash
+git submodule update --init
+```
+
 ## Usage
 
 To compile Tree Sitter modules, execute the following command from the root of the cloned
