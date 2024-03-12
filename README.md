@@ -23,7 +23,16 @@ git submodule update --init
 
 ## Usage
 
-To compile Tree Sitter modules, execute the following command from the root of the cloned
+Before building the Tree Sitter modules, you may want to switch to a different tag or branch to
+build a specific version. Navigate into the modules directory and check out the desired tag or
+branch:
+
+```bash
+cd tree-sitter-module
+git checkout <tag_or_branch_name>
+```
+
+To build all the Tree Sitter modules, execute the following command from the root of the cloned
 repository:
 
 ```bash
