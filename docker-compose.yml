@@ -7,7 +7,6 @@ services:
       pull: true
     volumes:
       - ./:/build
-      - ./tree-sitter-module:/build/src
       - /usr/local:/usr/local
     tty: true
     stdin_open: true

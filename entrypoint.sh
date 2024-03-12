@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -e
 
-cd src
+cd tree-sitter-module
 echo "Cleaning..."
 rm -rf dist
 
