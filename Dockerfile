@@ -1,6 +1,7 @@
 FROM ubuntu:22.04
 LABEL maintainer="Miguel Guedes <miguel.a.guedes@gmail.com>"
 WORKDIR /build
+ENV DEBIAN_FRONTEND=noninteractive
 
 # Common system dependencies
 RUN apt-get update \
