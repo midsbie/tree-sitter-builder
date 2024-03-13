@@ -1,7 +1,8 @@
 # Tree Sitter Builder
 
-The Tree Sitter Builder is a Docker-based tool designed to automate the building of Tree Sitter
-language modules supported by the https://github.com/casouri/tree-sitter-module repository.
+The Tree Sitter Builder is a Ubuntu-centric and Docker-based tool designed to automate the building
+of Tree Sitter language modules supported by the https://github.com/casouri/tree-sitter-module
+repository.
 
 ## Installation
 
@@ -31,6 +32,10 @@ branch:
 cd tree-sitter-module
 git checkout <tag_or_branch_name>
 ```
+
+For users operating on different OS versions, you may also want to edit the base image in the `FROM`
+stanza in the Dockerfile to match your OS version and ensure that the Docker environment is fully
+compatible with your system, minimizing potential issues during the build process.
 
 To build all the Tree Sitter modules, execute the following command from the root of the cloned
 repository:
